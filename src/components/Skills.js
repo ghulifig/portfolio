@@ -1,6 +1,8 @@
 import React from "react";
 
-const batman = require.context('/Users/macbookpro2015/Desktop/portafolio/public/assets/images', true);
+// const batman = require.context('/Users/macbookpro2015/Desktop/portafolio/public/assets/images', true);
+const batman = require.context('../../public/assets/images', true);
+
 
 export default function Skills() {
   return (
@@ -23,14 +25,14 @@ export default function Skills() {
                 <div style={{ fontSize: '15px'}}>PHP</div>
               </div>
             </a>
-            <a href="#" style={{textAlign: 'center' }}>
+            {/* <a href="#" style={{textAlign: 'center' }}>
               <div>
                 <div style={{ paddingTop: '10px'}}>
                   <i class="devicon-java-plain colored"></i>
                 </div>
                 <div style={{ fontSize: '15px'}}>Java</div>
               </div>
-            </a>
+            </a> */}
             <a href="#" style={{textAlign: 'center' }}>
               <div>
                 <div style={{ paddingTop: '10px'}}>

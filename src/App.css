@@ -77,10 +77,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .home-content h3 {
   font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.home-content h4 {
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -110,11 +116,13 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .skills-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
+  margin-top: -10%;
 }
 
 .skills-content h3:nth-of-type(2) {
@@ -133,10 +141,17 @@ span {
 
 .skills-content p{
   font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
 }
 
+.skills-cositos {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}
 .skills-cositos a{
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100px;
@@ -158,7 +173,7 @@ span {
 } */
 .skills-cositos a:hover{
   background: var(--bg-third-color);
-  color: var(--bg-sec-color);
+  color: var(--bg-main-color);
   box-shadow: 0 0 1rem var(--main-color);
 }
 
@@ -188,7 +203,7 @@ span {
   padding: 1rem 2.8rem;
   background: var(--main-color);
   border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
+  box-shadow: none;
   font-size: 1.6rem;
   color: var(--bg-sec-color);
   letter-spacing: .1rem;
@@ -197,5 +212,5 @@ span {
 }
 
 .btn:hover {
-  box-shadow: none;
+  box-shadow: 0 0 1rem var(--main-color);
 }
