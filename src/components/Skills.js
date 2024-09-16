@@ -19,20 +19,20 @@ export default function Skills() {
           </a> */}
             <a href="#" style={{textAlign: 'center' }}>
               <div>
-                <div style={{ paddingTop: '10px'}}>
-                  <i class="devicon-php-plain colored"></i>
+                <div class="skills-img">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
                 </div>
-                <div style={{ fontSize: '15px'}}>PHP</div>
+                <div style={{ fontSize: '15px', marginTop: '-10px'}}>PHP</div>
               </div>
             </a>
-            {/* <a href="#" style={{textAlign: 'center' }}>
+            <a href="#" style={{textAlign: 'center' }}>
               <div>
                 <div style={{ paddingTop: '10px'}}>
-                  <i class="devicon-java-plain colored"></i>
+                  <i class="devicon-python-plain colored"></i>
                 </div>
                 <div style={{ fontSize: '15px'}}>Java</div>
               </div>
-            </a> */}
+            </a>
             <a href="#" style={{textAlign: 'center' }}>
               <div>
                 <div style={{ paddingTop: '10px'}}>
@@ -119,14 +119,6 @@ export default function Skills() {
                   <i class="devicon-mysql-original colored"></i>
                 </div>
                 <div style={{ fontSize: '15px'}}>mySQL</div>
-              </div>
-            </a>
-            <a href="#" style={{ textAlign: 'center' }}>
-              <div>
-                <div style={{ paddingTop: '10px'}}>
-                  <i class="devicon-azuresqldatabase-plain colored"></i>
-                </div>
-                <div style={{ fontSize: '15px'}}>SQL</div>
               </div>
             </a>
             <a href="#" style={{ textAlign: 'center' }}>
