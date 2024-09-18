@@ -15,7 +15,7 @@ export default function Home() {
                 </div>
               </div>
               <div style={{ width: '50%' }}>
-                <div style={{ marginBottom: '-5px' }}>
+                <div className="luffy" id="luffy">
                   <img src={batman('./peeker_luffy2.png')} alt="Python" style={{ maxWidth: '40%' }} />
                 </div>
                 <div>
@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
+           
         </div>
         {/* <div class="home-img">
             <img src="https://toppng.com/uploads/preview/luffy-2nd-gear-one-piece-luffy-gear-second-11562941039pcqlhzgq9t.png" alt="hola" width="400px" height="400px"></img>
