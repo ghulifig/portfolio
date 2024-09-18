@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">&lt;GF/&gt;</a>
         
         <i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i>
 

@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section class="about" id="about">
-      {/* <div class="about-content">
+      <div class="about-content">
             <h3>Hello, It's me</h3>
             <h1>Mario</h1>
             <h3>Mamma mia, and I'm a <span>Fontaner</span></h3>
@@ -16,7 +16,7 @@ export default function About() {
         </div>
         <div class="about-img">
             <img src="https://toppng.com/uploads/preview/luffy-2nd-gear-one-piece-luffy-gear-second-11562941039pcqlhzgq9t.png" alt="hola" width="400px" height="400px"></img>
-        </div> */}
+        </div>
 
     </section>
   );
