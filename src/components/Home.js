@@ -16,10 +16,10 @@ export default function Home() {
             </div>
             <div style={{ width: '50%' }}>
               <div className="luffy" id="luffy">
-                <img src={batman('./peeker_luffy2.png')} alt="Python" style={{ maxWidth: '40%' }} />
+                <img src={batman('./peeker_luffy2.png')} alt="Monkey D. Luffy" style={{ maxWidth: '40%' }} />
               </div>
-              <div>
-                <a href="https://www.mangago.me/read-manga/one_piece/mr/one-piece/1/" target="_blank" className="btn-resume">Download resume</a>
+              <div className="resume">
+                <a href="https://www.mangago.me/read-manga/one_piece/mr/one-piece/1/" style={{ width: '40%' }} target="_blank" className="btn-resume">Download resume</a>
               </div>
             </div>
             {/* <button class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">ola

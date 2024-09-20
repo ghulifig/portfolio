@@ -641,6 +641,7 @@ section {
   min-height: 90vh;
 }
 
+/* HEADER */
 .header {
   position: fixed;
   top: 0;
@@ -664,15 +665,19 @@ section {
 .navbar a {
   font-size: 2rem;
   color: var(--text-color);
-  margin-left: 4rem;
+  margin-left: 3.5rem;
 }
 
 .navbar a:hover {
   color: var(--main-color2);
 }
 
-.navbar a.active {
-  color: var(--main-color2);
+.navbar .nav-activo {
+  color: #C8A1E0;
+}
+
+.navbar .nav-inactivo {
+  color: #fff;
 }
 
 #menu-icon {
@@ -680,6 +685,20 @@ section {
   color: var(--text-color);
   display: none;
 }
+
+.divider{
+  stroke: #C8A1E0;
+  margin: 0 0 0 1rem;
+}
+
+.lucide:hover{
+  stroke: #C8A1E0;
+}
+.lucide{
+  margin: 0 0 0 0.5rem;
+}
+
+/* HOME */
 
 .home {
   display: flex;
@@ -722,6 +741,46 @@ span {
 .home-content p{
   font-size: 1.6rem;
 }
+
+.about_me{
+  font-size: 2.5rem;
+  justify-content: left;
+  align-items: left;
+  text-align: justify;
+  padding-top: 2%;
+}
+
+.luffy{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -5px;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-resume {
+  margin-bottom: -5px;
+  align-items: center;
+  padding: 1rem 2.8rem 1rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: none;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+
+.btn-resume:hover {
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+/* SKILLS */
 
 .skills {
   display: flex;
@@ -791,6 +850,12 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+/* MEDIA */
+
+
+
+/* CONTACT ME */
+
 .social-media a{
   display: inline-flex;
   justify-content: center;
@@ -812,36 +877,9 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-.btn-resume {
-  display: inline-block;
-  padding: 1rem 2.8rem 1rem;
-  background: var(--main-color);
-  border-radius: 4rem;
-  box-shadow: none;
-  font-size: 1.6rem;
-  color: var(--text-color);
-  letter-spacing: .1rem;
-  font-weight: 600;
-  transition: .5s ease;
-}
 
-.btn-resume:hover {
-  box-shadow: 0 0 1rem var(--main-color);
-}
 
-.about_me{
-  font-size: 2.5rem;
-  justify-content: left;
-  align-items: left;
-  text-align: justify;
-  padding-top: 2%;
-}
-
-.luffy{
-  margin-bottom: -5px;
-  align-items: center;
-  text-align: center;
-}
+/* MEDIA */
 
 @media (prefers-color-scheme: dark) {
   .dark\:bg-slate-800 {
