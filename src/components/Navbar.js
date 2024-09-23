@@ -37,23 +37,13 @@ export default function Navbar() {
 
   return (
     <header className="header">
-      <a href="#" className="logo">&lt;GF/&gt;</a>
+      <h3 className="logo">&lt;<span className="heading-color">GF</span>/&gt;</h3>
       <div className="flex items-center gap-6 flex-row">
         <nav className="navbar">
-          <a
-            href="#home"
-            className={`${activeLink === "#home" ? "nav-activo" : "nav-inactivo"}`}
-            onClick={() => handleLinkClick("#home")}
-          >
-            Home
-          </a>
-          <a
-            href="#skills"
-            className={`${activeLink === "#skills" ? "nav-activo" : "nav-inactivo"}`}
-            onClick={() => handleLinkClick("#skills")}
-          >
-            Skills
-          </a>
+          <a href="#home" className={`${activeLink === "#home" ? "nav-activo" : "nav-inactivo"}`} onClick={() => handleLinkClick("#home")}>Home</a>
+          <a href="#skills" className={`${activeLink === "#skills" ? "nav-activo" : "nav-inactivo"}`} onClick={() => handleLinkClick("#skills")}>Skills</a>
+          <a href="#projects" className={`${activeLink === "#projects" ? "nav-activo" : "nav-inactivo"}`} onClick={() => handleLinkClick("#projects")}>Projects</a>
+          <a href="#contact" className={`${activeLink === "#contact" ? "nav-activo" : "nav-inactivo"}`} onClick={() => handleLinkClick("#contact")}>Contact</a>
         </nav>
         <div className="divider">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="dividers">
