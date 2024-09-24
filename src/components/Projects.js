@@ -14,47 +14,33 @@ export default function Projects() {
                 <img src={projects('./sgrpy-dark.png')}/>
               </div>
               <div className="p-text">
-                <h2>SGR.PY <div className="heading-color">Civil Registry Management System</div></h2>
-                System developed for the Civil Registry of Paraguay for the issuance of citizens' documents.
-                <div class="flex flex-wrap gap-2">
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">React</p>
+                <h2>SGR.PY <div className="heading-color">Civil Registry Management System</div></h2><br></br>
+                <p>System developed for the Civil Registry of Paraguay for the issuance of citizens' documents.</p>
+                <br></br>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-8 py-1">
+                    <p>PHP</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Next.js</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>JavaScript</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Typescript</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>HTML</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Tailwindcss</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>CSS</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Material UI</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>Bootstrap</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Redux Toolkit</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>Git</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">React Query</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>MySQL</p>
                   </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Express.js</p>
-                  </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">PostgreSQL</p>
-                  </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Firebase</p>
-                  </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">AWS Amplify</p>
-                  </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Cypress</p>
-                  </div>
-                  <div class="flex items-center justify-center rounded-xl bg-gray-200 px-5 py-1">
-                    <p class="text-normal text-sm font-medium">Storybook</p>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>Oracle</p>
                   </div>
                 </div>
               </div>
@@ -66,7 +52,33 @@ export default function Projects() {
                 <img src={projects('./busqueda-dark.png')}/>
               </div>
               <div className="p-text">
-                  <p>Laravel</p>
+                <h2>Búsqueda REC<div className="heading-color">Search System</div></h2><br></br>
+                <p>System developed for the Civil Registry of Paraguay to search for individuals in the databases.
+                </p>
+                <br></br>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-8 py-1">
+                    <p>PHP</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>JavaScript</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>HTML</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>CSS</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>Bootstrap</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>Git</p>
+                  </div>
+                  <div className="flex items-center justify-center rounded-xl projects-languages px-5 py-1">
+                    <p>MySQL</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
